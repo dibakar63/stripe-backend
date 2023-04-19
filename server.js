@@ -54,4 +54,4 @@ app.post("/checkout", async (req, res) => {
     }));
 });
 
-app.listen(PORT, () => console.log(`Listening on port ${PORT}!`));
+app.listen(port, () => console.log(`Listening on port ${PORT}!`));
