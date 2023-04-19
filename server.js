@@ -5,7 +5,7 @@
 
 const express=require('express');
 const cors=require('cors')
-const stripe=require('stripe')('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');
+const stripe=require('stripe')('sk_test_51MySfISDhR3TyBvwoYeehMM7Sdyh4zd6brbEI9aFqODMHCNP00cDThCfyNKVLH5kUtM3zUctNGN6Ry1B3fYYzdyO00HU93h5lW');
 const port=process.env.PORT;
 
 const app=express();
